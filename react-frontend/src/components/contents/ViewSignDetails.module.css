@@ -1,0 +1,56 @@
+
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: center;
+}
+  
+.modal {
+    position: fixed;
+    top: 1vh;
+    width: 70%;
+    height: 100vh;
+    z-index: 100;
+    overflow: auto;
+    background-color: white; 
+}
+
+.empty{
+    height: 2vw;
+}
+
+.tab0{
+    margin-left: 1vw;
+}
+
+.tab1{
+    margin-left: 3vw;
+}
+
+.tab2{
+    margin-left: 5vw;
+}
+
+.tab3{
+    margin-left: 7vw;
+}
+
+.footer{
+    display: flex;
+    margin: 25px
+}
+
+.footer_deny{
+    width: 100%;
+    align-content: left;
+}
+
+.footer_deny button{
+    float: right;
+}

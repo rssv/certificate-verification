@@ -1,0 +1,1034 @@
+[
+    {
+        "name": "Student1",
+        "admNo": "20ME0001",
+        "course": "M.Tech", 
+        "courseDuration": "2 years",
+        "yearOfAdmission": "2020",
+        "semNo": "1",
+        "semType": "Monsoon",
+        "semSession": "2020-21",
+        "department": "Department1",
+        "subjects": [
+            {
+                "subName": "Subject11",
+                "code": "D1S01",
+                "instructor": "Instructor1",
+                "marks": ""
+            },
+            {
+                "subName": "Subject12",
+                "code": "D1S02",
+                "instructor": "Instructor2",
+                "marks": ""
+            },
+            {
+                "subName": "Subject13",
+                "code": "D1S03",
+                "instructor": "Instructor3",
+                "marks": ""
+            },
+            {
+                "subName": "Subject14",
+                "code": "D1S04",
+                "instructor": "Instructor4",
+                "marks": ""
+            },
+            {
+                "subName": "Subject15",
+                "code": "D1S05",
+                "instructor": "Instructor5",
+                "marks": ""
+            }
+        ]
+    },
+    {
+        "name": "Student2",
+        "admNo": "20ME0002",
+        "course": "M.Tech", 
+        "courseDuration": "2 years",
+        "yearOfAdmission": "2020",
+        "semNo": "1",
+        "semType": "Monsoon",
+        "semSession": "2020-21",
+        "department": "Department1",
+        "subjects": [
+            {
+                "subName": "Subject11",
+                "code": "D1S01",
+                "instructor": "Instructor1",
+                "marks": ""
+            },
+            {
+                "subName": "Subject12",
+                "code": "D1S02",
+                "instructor": "Instructor2",
+                "marks": ""
+            },
+            {
+                "subName": "Subject13",
+                "code": "D1S03",
+                "instructor": "Instructor3",
+                "marks": ""
+            },
+            {
+                "subName": "Subject14",
+                "code": "D1S04",
+                "instructor": "Instructor4",
+                "marks": ""
+            },
+            {
+                "subName": "Subject15",
+                "code": "D1S05",
+                "instructor": "Instructor5",
+                "marks": ""
+            }
+        ]
+    },
+    {
+        "name": "Student3",
+        "admNo": "20ME0003",
+        "course": "M.Tech", 
+        "courseDuration": "2 years",
+        "yearOfAdmission": "2020",
+        "semNo": "1",
+        "semType": "Monsoon",
+        "semSession": "2020-21",
+        "department": "Department1",
+        "subjects": [
+            {
+                "subName": "Subject11",
+                "code": "D1S01",
+                "instructor": "Instructor1",
+                "marks": ""
+            },
+            {
+                "subName": "Subject12",
+                "code": "D1S02",
+                "instructor": "Instructor2",
+                "marks": ""
+            },
+            {
+                "subName": "Subject13",
+                "code": "D1S03",
+                "instructor": "Instructor3",
+                "marks": ""
+            },
+            {
+                "subName": "Subject14",
+                "code": "D1S04",
+                "instructor": "Instructor4",
+                "marks": ""
+            },
+            {
+                "subName": "Subject15",
+                "code": "D1S05",
+                "instructor": "Instructor5",
+                "marks": ""
+            }
+        ]
+    },
+    {
+        "name": "Student4",
+        "admNo": "20ME0004",
+        "course": "M.Tech", 
+        "courseDuration": "2 years",
+        "yearOfAdmission": "2020",
+        "semNo": "1",
+        "semType": "Monsoon",
+        "semSession": "2020-21",
+        "department": "Department1",
+        "subjects": [
+            {
+                "subName": "Subject11",
+                "code": "D1S01",
+                "instructor": "Instructor1",
+                "marks": ""
+            },
+            {
+                "subName": "Subject12",
+                "code": "D1S02",
+                "instructor": "Instructor2",
+                "marks": ""
+            },
+            {
+                "subName": "Subject13",
+                "code": "D1S03",
+                "instructor": "Instructor3",
+                "marks": ""
+            },
+            {
+                "subName": "Subject14",
+                "code": "D1S04",
+                "instructor": "Instructor4",
+                "marks": ""
+            },
+            {
+                "subName": "Subject15",
+                "code": "D1S05",
+                "instructor": "Instructor5",
+                "marks": ""
+            }
+        ]
+    },
+    {
+        "name": "Student1",
+        "admNo": "20ME0001",
+        "course": "M.Tech", 
+        "courseDuration": "2 years",
+        "yearOfAdmission": "2020",
+        "semNo": "2",
+        "semType": "Winter",
+        "semSession": "2020-21",
+        "department": "Department1",
+        "subjects": [
+            {
+                "subName": "Subject16",
+                "code": "D1S06",
+                "instructor": "Instructor1",
+                "marks": ""
+            },
+            {
+                "subName": "Subject17",
+                "code": "D1S07",
+                "instructor": "Instructor2",
+                "marks": ""
+            },
+            {
+                "subName": "Subject18",
+                "code": "D1S08",
+                "instructor": "Instructor3",
+                "marks": ""
+            },
+            {
+                "subName": "Subject19",
+                "code": "D1S09",
+                "instructor": "Instructor4",
+                "marks": ""
+            },
+            {
+                "subName": "Subject110",
+                "code": "D1S10",
+                "instructor": "Instructor5",
+                "marks": ""
+            }
+        ]
+    },
+    {
+        "name": "Student2",
+        "admNo": "20ME0002",
+        "course": "M.Tech", 
+        "courseDuration": "2 years",
+        "yearOfAdmission": "2020",
+        "semNo": "2",
+        "semType": "Winter",
+        "semSession": "2020-21",
+        "department": "Department1",
+        "subjects": [
+            {
+                "subName": "Subject16",
+                "code": "D1S06",
+                "instructor": "Instructor1",
+                "marks": ""
+            },
+            {
+                "subName": "Subject17",
+                "code": "D1S07",
+                "instructor": "Instructor2",
+                "marks": ""
+            },
+            {
+                "subName": "Subject18",
+                "code": "D1S08",
+                "instructor": "Instructor3",
+                "marks": ""
+            },
+            {
+                "subName": "Subject19",
+                "code": "D1S09",
+                "instructor": "Instructor4",
+                "marks": ""
+            },
+            {
+                "subName": "Subject110",
+                "code": "D1S10",
+                "instructor": "Instructor5",
+                "marks": ""
+            }
+        ]
+    },
+    {
+        "name": "Student3",
+        "admNo": "20ME0003",
+        "course": "M.Tech", 
+        "courseDuration": "2 years",
+        "yearOfAdmission": "2020",
+        "semNo": "2",
+        "semType": "Winter",
+        "semSession": "2020-21",
+        "department": "Department1",
+        "subjects": [
+            {
+                "subName": "Subject16",
+                "code": "D1S06",
+                "instructor": "Instructor1",
+                "marks": ""
+            },
+            {
+                "subName": "Subject17",
+                "code": "D1S07",
+                "instructor": "Instructor2",
+                "marks": ""
+            },
+            {
+                "subName": "Subject18",
+                "code": "D1S08",
+                "instructor": "Instructor3",
+                "marks": ""
+            },
+            {
+                "subName": "Subject19",
+                "code": "D1S09",
+                "instructor": "Instructor4",
+                "marks": ""
+            },
+            {
+                "subName": "Subject110",
+                "code": "D1S10",
+                "instructor": "Instructor5",
+                "marks": ""
+            }
+        ]
+    },
+    {
+        "name": "Student4",
+        "admNo": "20ME0004",
+        "course": "M.Tech", 
+        "courseDuration": "2 years",
+        "yearOfAdmission": "2020",
+        "semNo": "2",
+        "semType": "Winter",
+        "semSession": "2020-21",
+        "department": "Department1",
+        "subjects": [
+            {
+                "subName": "Subject16",
+                "code": "D1S06",
+                "instructor": "Instructor1",
+                "marks": ""
+            },
+            {
+                "subName": "Subject17",
+                "code": "D1S07",
+                "instructor": "Instructor2",
+                "marks": ""
+            },
+            {
+                "subName": "Subject18",
+                "code": "D1S08",
+                "instructor": "Instructor3",
+                "marks": ""
+            },
+            {
+                "subName": "Subject19",
+                "code": "D1S09",
+                "instructor": "Instructor4",
+                "marks": ""
+            },
+            {
+                "subName": "Subject110",
+                "code": "D1S10",
+                "instructor": "Instructor5",
+                "marks": ""
+            }
+        ]
+    },
+    {
+        "name": "Student1",
+        "admNo": "20ME0001",
+        "course": "M.Tech", 
+        "courseDuration": "2 years",
+        "yearOfAdmission": "2020",
+        "semNo": "3",
+        "semType": "Monsoon",
+        "semSession": "2021-22",
+        "department": "Department1",
+        "subjects": [
+            {
+                "subName": "Subject111",
+                "code": "D1S11",
+                "instructor": "Instructor4",
+                "marks": ""
+            },
+            {
+                "subName": "Subject112",
+                "code": "D1S12",
+                "instructor": "Instructor5",
+                "marks": ""
+            },
+            {
+                "subName": "Subject113",
+                "code": "D1S13",
+                "instructor": "Instructor1",
+                "marks": ""
+            },
+            {
+                "subName": "Subject114",
+                "code": "D1S14",
+                "instructor": "Instructor2",
+                "marks": ""
+            },
+            {
+                "subName": "Subject115",
+                "code": "D1S15",
+                "instructor": "Instructor3",
+                "marks": ""
+            }
+        ]
+    },
+    {
+        "name": "Student2",
+        "admNo": "20ME0002",
+        "course": "M.Tech", 
+        "courseDuration": "2 years",
+        "yearOfAdmission": "2020",
+        "semNo": "3",
+        "semType": "Monsoon",
+        "semSession": "2021-22",
+        "department": "Department1",
+        "subjects": [
+            {
+                "subName": "Subject111",
+                "code": "D1S11",
+                "instructor": "Instructor4",
+                "marks": ""
+            },
+            {
+                "subName": "Subject112",
+                "code": "D1S12",
+                "instructor": "Instructor5",
+                "marks": ""
+            },
+            {
+                "subName": "Subject113",
+                "code": "D1S13",
+                "instructor": "Instructor1",
+                "marks": ""
+            },
+            {
+                "subName": "Subject114",
+                "code": "D1S14",
+                "instructor": "Instructor2",
+                "marks": ""
+            },
+            {
+                "subName": "Subject115",
+                "code": "D1S15",
+                "instructor": "Instructor3",
+                "marks": ""
+            }
+        ]
+    },
+    {
+        "name": "Student3",
+        "admNo": "20ME0003",
+        "course": "M.Tech", 
+        "courseDuration": "2 years",
+        "yearOfAdmission": "2020",
+        "semNo": "3",
+        "semType": "Monsoon",
+        "semSession": "2021-22",
+        "department": "Department1",
+        "subjects": [
+            {
+                "subName": "Subject111",
+                "code": "D1S11",
+                "instructor": "Instructor4",
+                "marks": ""
+            },
+            {
+                "subName": "Subject112",
+                "code": "D1S12",
+                "instructor": "Instructor5",
+                "marks": ""
+            },
+            {
+                "subName": "Subject113",
+                "code": "D1S13",
+                "instructor": "Instructor1",
+                "marks": ""
+            },
+            {
+                "subName": "Subject114",
+                "code": "D1S14",
+                "instructor": "Instructor2",
+                "marks": ""
+            },
+            {
+                "subName": "Subject115",
+                "code": "D1S15",
+                "instructor": "Instructor3",
+                "marks": ""
+            }
+        ]
+    },
+    {
+        "name": "Student4",
+        "admNo": "20ME0004",
+        "course": "M.Tech", 
+        "courseDuration": "2 years",
+        "yearOfAdmission": "2020",
+        "semNo": "3",
+        "semType": "Monsoon",
+        "semSession": "2021-22",
+        "department": "Department1",
+        "subjects": [
+            {
+                "subName": "Subject111",
+                "code": "D1S11",
+                "instructor": "Instructor4",
+                "marks": ""
+            },
+            {
+                "subName": "Subject112",
+                "code": "D1S12",
+                "instructor": "Instructor5",
+                "marks": ""
+            },
+            {
+                "subName": "Subject113",
+                "code": "D1S13",
+                "instructor": "Instructor1",
+                "marks": ""
+            },
+            {
+                "subName": "Subject114",
+                "code": "D1S14",
+                "instructor": "Instructor2",
+                "marks": ""
+            },
+            {
+                "subName": "Subject115",
+                "code": "D1S15",
+                "instructor": "Instructor3",
+                "marks": ""
+            }
+        ]
+    },
+    {
+        "name": "Student1",
+        "admNo": "20ME0001",
+        "course": "M.Tech", 
+        "courseDuration": "2 years",
+        "yearOfAdmission": "2020",
+        "semNo": "4",
+        "semType": "Winter",
+        "semSession": "2021-22",
+        "department": "Department1",
+        "subjects": [
+            {
+                "subName": "Subject116",
+                "code": "D1S16",
+                "instructor": "Instructor3",
+                "marks": ""
+            },
+            {
+                "subName": "Subject117",
+                "code": "D1S17",
+                "instructor": "Instructor4",
+                "marks": ""
+            },
+            {
+                "subName": "Subject118",
+                "code": "D1S18",
+                "instructor": "Instructor5",
+                "marks": ""
+            },
+            {
+                "subName": "Subject119",
+                "code": "D1S19",
+                "instructor": "Instructor1",
+                "marks": ""
+            },
+            {
+                "subName": "Subject120",
+                "code": "D1S20",
+                "instructor": "Instructor2",
+                "marks": ""
+            }
+        ]
+    },
+    {
+        "name": "Student2",
+        "admNo": "20ME0002",
+        "course": "M.Tech", 
+        "courseDuration": "2 years",
+        "yearOfAdmission": "2020",
+        "semNo": "4",
+        "semType": "Winter",
+        "semSession": "2021-22",
+        "department": "Department1",
+        "subjects": [
+            {
+                "subName": "Subject116",
+                "code": "D1S16",
+                "instructor": "Instructor3",
+                "marks": ""
+            },
+            {
+                "subName": "Subject117",
+                "code": "D1S17",
+                "instructor": "Instructor4",
+                "marks": ""
+            },
+            {
+                "subName": "Subject118",
+                "code": "D1S18",
+                "instructor": "Instructor5",
+                "marks": ""
+            },
+            {
+                "subName": "Subject119",
+                "code": "D1S19",
+                "instructor": "Instructor1",
+                "marks": ""
+            },
+            {
+                "subName": "Subject120",
+                "code": "D1S20",
+                "instructor": "Instructor2",
+                "marks": ""
+            }
+        ]
+    },
+    {
+        "name": "Student3",
+        "admNo": "20ME0003",
+        "course": "M.Tech", 
+        "courseDuration": "2 years",
+        "yearOfAdmission": "2020",
+        "semNo": "4",
+        "semType": "Winter",
+        "semSession": "2021-22",
+        "department": "Department1",
+        "subjects": [
+            {
+                "subName": "Subject116",
+                "code": "D1S16",
+                "instructor": "Instructor3",
+                "marks": ""
+            },
+            {
+                "subName": "Subject117",
+                "code": "D1S17",
+                "instructor": "Instructor4",
+                "marks": ""
+            },
+            {
+                "subName": "Subject118",
+                "code": "D1S18",
+                "instructor": "Instructor5",
+                "marks": ""
+            },
+            {
+                "subName": "Subject119",
+                "code": "D1S19",
+                "instructor": "Instructor1",
+                "marks": ""
+            },
+            {
+                "subName": "Subject120",
+                "code": "D1S20",
+                "instructor": "Instructor2",
+                "marks": ""
+            }
+        ]
+    },
+    {
+        "name": "Student4",
+        "admNo": "20ME0004",
+        "course": "M.Tech", 
+        "courseDuration": "2 years",
+        "yearOfAdmission": "2020",
+        "semNo": "4",
+        "semType": "Winter",
+        "semSession": "2021-22",
+        "department": "Department1",
+        "subjects": [
+            {
+                "subName": "Subject116",
+                "code": "D1S16",
+                "instructor": "Instructor3",
+                "marks": ""
+            },
+            {
+                "subName": "Subject117",
+                "code": "D1S17",
+                "instructor": "Instructor4",
+                "marks": ""
+            },
+            {
+                "subName": "Subject118",
+                "code": "D1S18",
+                "instructor": "Instructor5",
+                "marks": ""
+            },
+            {
+                "subName": "Subject119",
+                "code": "D1S19",
+                "instructor": "Instructor1",
+                "marks": ""
+            },
+            {
+                "subName": "Subject120",
+                "code": "D1S20",
+                "instructor": "Instructor2",
+                "marks": ""
+            }
+        ]
+    },
+    {
+        "name": "Student5",
+        "admNo": "21ME0001",
+        "course": "M.Tech", 
+        "courseDuration": "2 years",
+        "yearOfAdmission": "2021",
+        "semNo": "1",
+        "semType": "Monsoon",
+        "semSession": "2021-22",
+        "department": "Department1",
+        "subjects": [
+            {
+                "subName": "Subject11",
+                "code": "D1S01",
+                "instructor": "Instructor5",
+                "marks": ""
+            },
+            {
+                "subName": "Subject12",
+                "code": "D1S02",
+                "instructor": "Instructor1",
+                "marks": ""
+            },
+            {
+                "subName": "Subject13",
+                "code": "D1S03",
+                "instructor": "Instructor2",
+                "marks": ""
+            },
+            {
+                "subName": "Subject14",
+                "code": "D1S04",
+                "instructor": "Instructor3",
+                "marks": ""
+            },
+            {
+                "subName": "Subject15",
+                "code": "D1S05",
+                "instructor": "Instructor4",
+                "marks": ""
+            }
+        ]
+    },
+    {
+        "name": "Student6",
+        "admNo": "21ME0002",
+        "course": "M.Tech", 
+        "courseDuration": "2 years",
+        "yearOfAdmission": "2021",
+        "semNo": "1",
+        "semType": "Monsoon",
+        "semSession": "2021-22",
+        "department": "Department1",
+        "subjects": [
+            {
+                "subName": "Subject11",
+                "code": "D1S01",
+                "instructor": "Instructor5",
+                "marks": ""
+            },
+            {
+                "subName": "Subject12",
+                "code": "D1S02",
+                "instructor": "Instructor1",
+                "marks": ""
+            },
+            {
+                "subName": "Subject13",
+                "code": "D1S03",
+                "instructor": "Instructor2",
+                "marks": ""
+            },
+            {
+                "subName": "Subject14",
+                "code": "D1S04",
+                "instructor": "Instructor3",
+                "marks": ""
+            },
+            {
+                "subName": "Subject15",
+                "code": "D1S05",
+                "instructor": "Instructor4",
+                "marks": ""
+            }
+        ]
+    },
+    {
+        "name": "Student7",
+        "admNo": "21ME0003",
+        "course": "M.Tech", 
+        "courseDuration": "2 years",
+        "yearOfAdmission": "2021",
+        "semNo": "1",
+        "semType": "Monsoon",
+        "semSession": "2021-22",
+        "department": "Department1",
+        "subjects": [
+            {
+                "subName": "Subject11",
+                "code": "D1S01",
+                "instructor": "Instructor5",
+                "marks": ""
+            },
+            {
+                "subName": "Subject12",
+                "code": "D1S02",
+                "instructor": "Instructor1",
+                "marks": ""
+            },
+            {
+                "subName": "Subject13",
+                "code": "D1S03",
+                "instructor": "Instructor2",
+                "marks": ""
+            },
+            {
+                "subName": "Subject14",
+                "code": "D1S04",
+                "instructor": "Instructor3",
+                "marks": ""
+            },
+            {
+                "subName": "Subject15",
+                "code": "D1S05",
+                "instructor": "Instructor4",
+                "marks": ""
+            }
+        ]
+    },
+    {
+        "name": "Student8",
+        "admNo": "21ME0004",
+        "course": "M.Tech", 
+        "courseDuration": "2 years",
+        "yearOfAdmission": "2021",
+        "semNo": "1",
+        "semType": "Monsoon",
+        "semSession": "2021-22",
+        "department": "Department1",
+        "subjects": [
+            {
+                "subName": "Subject11",
+                "code": "D1S01",
+                "instructor": "Instructor5",
+                "marks": ""
+            },
+            {
+                "subName": "Subject12",
+                "code": "D1S02",
+                "instructor": "Instructor1",
+                "marks": ""
+            },
+            {
+                "subName": "Subject13",
+                "code": "D1S03",
+                "instructor": "Instructor2",
+                "marks": ""
+            },
+            {
+                "subName": "Subject14",
+                "code": "D1S04",
+                "instructor": "Instructor3",
+                "marks": ""
+            },
+            {
+                "subName": "Subject15",
+                "code": "D1S05",
+                "instructor": "Instructor4",
+                "marks": ""
+            }
+        ]
+    },
+    {
+        "name": "Student5",
+        "admNo": "21ME0001",
+        "course": "M.Tech", 
+        "courseDuration": "2 years",
+        "yearOfAdmission": "2021",
+        "semNo": "2",
+        "semType": "Winter",
+        "semSession": "2021-22",
+        "department": "Department1",
+        "subjects": [
+            {
+                "subName": "Subject16",
+                "code": "D1S06",
+                "instructor": "Instructor4",
+                "marks": ""
+            },
+            {
+                "subName": "Subject17",
+                "code": "D1S07",
+                "instructor": "Instructor5",
+                "marks": ""
+            },
+            {
+                "subName": "Subject18",
+                "code": "D1S08",
+                "instructor": "Instructor1",
+                "marks": ""
+            },
+            {
+                "subName": "Subject19",
+                "code": "D1S09",
+                "instructor": "Instructor2",
+                "marks": ""
+            },
+            {
+                "subName": "Subject110",
+                "code": "D1S10",
+                "instructor": "Instructor3",
+                "marks": ""
+            }
+        ]
+    },
+    {
+        "name": "Student6",
+        "admNo": "21ME0002",
+        "course": "M.Tech", 
+        "courseDuration": "2 years",
+        "yearOfAdmission": "2021",
+        "semNo": "2",
+        "semType": "Winter",
+        "semSession": "2021-22",
+        "department": "Department1",
+        "subjects": [
+            {
+                "subName": "Subject16",
+                "code": "D1S06",
+                "instructor": "Instructor4",
+                "marks": ""
+            },
+            {
+                "subName": "Subject17",
+                "code": "D1S07",
+                "instructor": "Instructor5",
+                "marks": ""
+            },
+            {
+                "subName": "Subject18",
+                "code": "D1S08",
+                "instructor": "Instructor1",
+                "marks": ""
+            },
+            {
+                "subName": "Subject19",
+                "code": "D1S09",
+                "instructor": "Instructor2",
+                "marks": ""
+            },
+            {
+                "subName": "Subject110",
+                "code": "D1S10",
+                "instructor": "Instructor3",
+                "marks": ""
+            }
+        ]
+    },
+    {
+        "name": "Student7",
+        "admNo": "21ME0003",
+        "course": "M.Tech", 
+        "courseDuration": "2 years",
+        "yearOfAdmission": "2021",
+        "semNo": "2",
+        "semType": "Winter",
+        "semSession": "2021-22",
+        "department": "Department1",
+        "subjects": [
+            {
+                "subName": "Subject16",
+                "code": "D1S06",
+                "instructor": "Instructor4",
+                "marks": ""
+            },
+            {
+                "subName": "Subject17",
+                "code": "D1S07",
+                "instructor": "Instructor5",
+                "marks": ""
+            },
+            {
+                "subName": "Subject18",
+                "code": "D1S08",
+                "instructor": "Instructor1",
+                "marks": ""
+            },
+            {
+                "subName": "Subject19",
+                "code": "D1S09",
+                "instructor": "Instructor2",
+                "marks": ""
+            },
+            {
+                "subName": "Subject110",
+                "code": "D1S10",
+                "instructor": "Instructor3",
+                "marks": ""
+            }
+        ]
+    },
+    {
+        "name": "Student8",
+        "admNo": "21ME0004",
+        "course": "M.Tech", 
+        "courseDuration": "2 years",
+        "yearOfAdmission": "2021",
+        "semNo": "2",
+        "semType": "Winter",
+        "semSession": "2021-22",
+        "department": "Department1",
+        "subjects": [
+            {
+                "subName": "Subject16",
+                "code": "D1S06",
+                "instructor": "Instructor4",
+                "marks": ""
+            },
+            {
+                "subName": "Subject17",
+                "code": "D1S07",
+                "instructor": "Instructor5",
+                "marks": ""
+            },
+            {
+                "subName": "Subject18",
+                "code": "D1S08",
+                "instructor": "Instructor1",
+                "marks": ""
+            },
+            {
+                "subName": "Subject19",
+                "code": "D1S09",
+                "instructor": "Instructor2",
+                "marks": ""
+            },
+            {
+                "subName": "Subject110",
+                "code": "D1S10",
+                "instructor": "Instructor3",
+                "marks": ""
+            }
+        ]
+    }
+]

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Result</title>
+    <link rel="stylesheet" type='text/css' href="http://localhost:4000/css/pdf.css" >
+</head>
+
+<body>
+    <header class="header">
+        <img src="http://localhost:4000/images/result.png" />
+    </header>
+    <div class="student_details">
+        <div class="fields">
+            <span>
+                <span class="field_name">Name:</span>
+                <span class="field_description"> <%= studentData.name %></span>
+            
+                <span class="field_name">Course:</span>
+                <span class="field_description"> <%= studentData.course %></span>
+            </span>
+        </div>
+        <div class="fields">
+            <span>
+                <span class="field_name">Admission No.:</span>
+                <span class="field_description"> <%= studentData.admNo %></span>
+            
+                <span class="field_name">Department:</span>
+                <span class="field_description"> <%= studentData.department %></span>
+            </span>
+        </div>
+    </div>
+    
+    <div class="marks_form">
+        <div class="empty"></div>
+        <table class="table">
+            <thead></thead>
+            <tbody>
+            <tr class="row">
+                <th class="column_header">Sr. No.</th>
+                <th class="column_header">Course Code</th>
+                <th class="column_header">Subject Name</th>
+                <th class="column_header">Marks</th>
+            </tr>
+            <% studentData.subjects.forEach((sub, i)=>{  %>
+                
+                <tr class="row" key=<%= i %>><td class="data"><%= i+1 %></td>
+                    <td class="data"><%= sub.code %></td>
+                    <td class="data"><%= sub.subName %></td>
+                    <td class="data"><%= sub.marks %></td>
+                </tr>
+                    
+                <% }) %>
+            </tbody>
+        </table>
+        <div class="empty"></div>
+    </div>
+        
+</body>
+
+</html>

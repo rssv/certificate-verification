@@ -1,0 +1,158 @@
+[
+    {
+        "name": "Student1",
+        "admNo": "XXJE0001",
+        "course": "Dual Degree", 
+        "courseDuration": "5 years",
+        "department": "Computer Science and Engineering",
+        "subjects": [
+            {
+                "subName": "Operating Systems",
+                "code": "CSC123",
+                "instructor": "Instructor1",
+                "marks": ""
+            },
+            {
+                "subName": "Compiler Design",
+                "code": "CSC124",
+                "instructor": "Instructor2",
+                "marks": ""
+            },
+            {
+                "subName": "Computer Architecture",
+                "code": "CSC125",
+                "instructor": "Instructor3",
+                "marks": ""
+            },
+            {
+                "subName": "Software Engineering",
+                "code": "CSC126",
+                "instructor": "Instructor4",
+                "marks": ""
+            },
+            {
+                "subName": "Image processing",
+                "code": "CSC127",
+                "instructor": "Instructor5",
+                "marks": ""
+            }
+        ]
+    },
+    {
+        "name": "Student2",
+        "admNo": "XXJE0002",
+        "course": "Dual Degree", 
+        "courseDuration": "5 years",
+        "department": "Computer Science and Engineering",
+        "subjects": [
+            {
+                "subName": "Operating Systems",
+                "code": "CSC123",
+                "instructor": "Instructor1",
+                "marks": ""
+            },
+            {
+                "subName": "Compiler Design",
+                "code": "CSC124",
+                "instructor": "Instructor2",
+                "marks": ""
+            },
+            {
+                "subName": "Computer Architecture",
+                "code": "CSC125",
+                "instructor": "Instructor3",
+                "marks": ""
+            },
+            {
+                "subName": "Software Engineering",
+                "code": "CSC126",
+                "instructor": "Instructor4",
+                "marks": ""
+            },
+            {
+                "subName": "Image processing",
+                "code": "CSC127",
+                "instructor": "Instructor5",
+                "marks": ""
+            }
+        ]
+    },
+    {
+        "name": "Student3",
+        "admNo": "XXJE0003",
+        "course": "Dual Degree", 
+        "courseDuration": "5 years",
+        "department": "Computer Science and Engineering",
+        "subjects": [
+            {
+                "subName": "Operating Systems",
+                "code": "CSC123",
+                "instructor": "Instructor1",
+                "marks": ""
+            },
+            {
+                "subName": "Compiler Design",
+                "code": "CSC124",
+                "instructor": "Instructor2",
+                "marks": ""
+            },
+            {
+                "subName": "Computer Architecture",
+                "code": "CSC125",
+                "instructor": "Instructor3",
+                "marks": ""
+            },
+            {
+                "subName": "Software Engineering",
+                "code": "CSC126",
+                "instructor": "Instructor4",
+                "marks": ""
+            },
+            {
+                "subName": "Image processing",
+                "code": "CSC127",
+                "instructor": "Instructor5",
+                "marks": ""
+            }
+        ]
+    },
+    {
+        "name": "Student4",
+        "admNo": "XXJE0004",
+        "course": "Dual Degree", 
+        "courseDuration": "5 years",
+        "department": "Computer Science and Engineering",
+        "subjects": [
+            {
+                "subName": "Operating Systems",
+                "code": "CSC123",
+                "instructor": "Instructor1",
+                "marks": ""
+            },
+            {
+                "subName": "Compiler Design",
+                "code": "CSC124",
+                "instructor": "Instructor2",
+                "marks": ""
+            },
+            {
+                "subName": "Computer Architecture",
+                "code": "CSC125",
+                "instructor": "Instructor3",
+                "marks": ""
+            },
+            {
+                "subName": "Software Engineering",
+                "code": "CSC126",
+                "instructor": "Instructor4",
+                "marks": ""
+            },
+            {
+                "subName": "Image processing",
+                "code": "CSC127",
+                "instructor": "Instructor5",
+                "marks": ""
+            }
+        ]
+    }
+]

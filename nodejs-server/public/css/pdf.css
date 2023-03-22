@@ -1,0 +1,82 @@
+*{
+    font-family: serif;
+    font-size: 4vw;
+}
+
+.header{
+    margin-top: 10px;
+    margin-left: 150px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.header img{
+    width: 70%;
+}
+
+.student_details{
+    background-color: white;
+    margin: 7vh;
+    width: 100%;
+}
+
+.fields{
+    
+    width: 100%;
+    background-color: white;
+    margin: 10px;
+}
+
+.fields > span{
+    width: 100%;
+}
+
+.field_name{
+    font-weight: bold;
+    display: inline-block;
+    background-color: white;
+    width: 13%;
+}
+
+.field_description{
+  background-color: white;
+  display: inline-block;
+  width: 30%;
+}
+
+.marks_form{
+    margin: 25px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+  }
+
+  .marks_form h3{
+    margin: 10px;
+  }
+  
+  .empty{
+    height: 5px;
+  }
+
+  .table{
+    border: 1px solid grey;
+    margin: 10px;
+  }
+  
+  .row{
+    background-color: white;
+  }
+  
+  .column_header{
+    width: 220px;
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  .data{
+    width: 220px;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  
