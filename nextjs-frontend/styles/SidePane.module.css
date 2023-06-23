@@ -1,0 +1,12 @@
+
+.navigation{
+    flex: 1;
+    background-color: whitesmoke;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+  }
+
+  .navigation_button{
+    font-size: 1.2vw;
+  }

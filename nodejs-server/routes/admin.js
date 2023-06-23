@@ -1,42 +1,40 @@
 const express = require('express');
-const { QueryTypes } = require('sequelize');
-const bcrypt = require('bcrypt');
 
-const { sequelize } = require('../utils/database');
+const adminController = require('../controllers/admin');
+
 
 const router = express.Router();
 
-router.get('/users', async (req, res) => {
-    const users = await sequelize.query(
-        "select * from users", {
-            type: QueryTypes.SELECT
-        }
-    );
-    res.json(users);
-});
+router.get('/students', adminController.getStudents);
+router.post('/students', adminController.createStudents);
 
-router.post('/users', async (req, res) => {
-    const encryptedUsers = req.body.users.map(async (user) => {
-        encryptedPassword = await bcrypt.hash(user.password, 10);
-        return {...user, password:encryptedPassword};
-    });
-    const hashedUsers = await Promise.all(encryptedUsers);
-    const values = hashedUsers.map(huser => {
-        return `('${huser.username}','${huser.password}','${huser.userRole}','${huser.userType}','${huser.refId}')`;
-    })
-    try{
-        const dbInsertResult = await sequelize.query(
-            "insert into users (user_name, passcode, user_role, user_type, ref_id) values "+values.join(','),
-            {
-                type: QueryTypes.INSERT
-            }
-        );
-        res.json(dbInsertResult);
-    } catch(err){
-        res.json(err);
-    }
-    
-    
-})
+router.get('/student/:id', adminController.getStudent);
+router.post('/student', adminController.createStudent);
+router.put('/student/:id', adminController.updateStudent);
+router.delete('/student/:id', adminController.removeStudent);
+
+router.get('/employees', adminController.getEmployees);
+router.post('/employees', adminController.createEmployees);
+
+router.get('/employee/:id', adminController.getEmployee);
+router.post('/employee', adminController.createEmployee);
+router.put('/employee/:id', adminController.updateEmployee);
+router.delete('/employee/:id', adminController.removeEmployee);
+
+router.get('/departments', adminController.getDepartments);
+router.post('/departments', adminController.createDepartments);
+
+router.get('/department/:id', adminController.getDepartment);
+router.post('/department', adminController.createDepartment);
+router.put('/department/:id', adminController.updateDepartment);
+router.delete('/department/:id', adminController.removeDepartment);
+
+router.get('/courses', adminController.getCourses);
+router.post('/courses', adminController.createCourses);
+
+router.get('/course/:id', adminController.getCourse);
+router.post('/course', adminController.createCourse);
+router.put('/course/:id', adminController.updateCourse);
+router.delete('/course/:id', adminController.removeCourse);
 
 module.exports = router;

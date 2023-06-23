@@ -3,19 +3,21 @@ const { DataTypes } = require('sequelize');
 const { sequelize } = require('../utils/database');
 
 const Student = sequelize.define('student',{
+    id: {
+        type: DataTypes.INTEGER,
+        primaryKey: true,
+        autoIncrement: true
+    },
     adm_no: {
         type: DataTypes.STRING,
-        primaryKey: true
+        unique:true,
+        allowNull: false
     },
     s_name:{
         type: DataTypes.STRING,
         allowNull: false
     },
     year_of_adm: {
-        type: DataTypes.INTEGER,
-        allowNull: false
-    },
-    course_id: {
         type: DataTypes.INTEGER,
         allowNull: false
     },
@@ -28,10 +30,6 @@ const Student = sequelize.define('student',{
     },
     major2: {
         type: DataTypes.STRING
-    },
-    dept_id:{
-        type: DataTypes.STRING,
-        allowNull:false
     }
 });
 

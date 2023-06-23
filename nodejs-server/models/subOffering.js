@@ -2,15 +2,12 @@ const { DataTypes } = require('sequelize');
 
 const { sequelize } = require('../utils/database');
 
-const Instructor = sequelize.define('instructor',{
+const SubOffering = sequelize.define('subOffering',{
     id: {
         type: DataTypes.INTEGER,
         primaryKey: true,
         autoIncrement: true
-    },
-    cv_link:{
-        type: DataTypes.TEXT,
     }
 });
 
-module.exports = Instructor;
+module.exports = SubOffering; 

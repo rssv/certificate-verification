@@ -2,15 +2,15 @@ const { DataTypes } = require('sequelize');
 
 const { sequelize } = require('../utils/database');
 
-const Instructor = sequelize.define('instructor',{
+const StudentSubjectRegistration = sequelize.define('studentSubjectRegistration',{
     id: {
         type: DataTypes.INTEGER,
         primaryKey: true,
         autoIncrement: true
     },
-    cv_link:{
-        type: DataTypes.TEXT,
-    }
+    marks: DataTypes.INTEGER,
+    status: DataTypes.STRING
+
 });
 
-module.exports = Instructor;
+module.exports = StudentSubjectRegistration; 

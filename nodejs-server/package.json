@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
@@ -31,5 +31,8 @@
     "sequelize": "^6.31.1",
     "sha256": "^0.2.0",
     "web3": "^1.7.1"
+  },
+  "devDependencies": {
+    "crypto-random-string": "^5.0.0"
   }
 }

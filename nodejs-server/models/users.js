@@ -24,10 +24,6 @@ const User = sequelize.define('user',{
     user_type: {
         type: DataTypes.STRING,
         allowNull: false
-    },
-    ref_id: {
-        type: DataTypes.STRING,
-        allowNull: false
     }
 });
 

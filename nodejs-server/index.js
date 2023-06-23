@@ -1,4 +1,4 @@
-// require('dotenv').config()
+require('dotenv').config()
 const express = require('express');
 const bodyParser = require('body-parser');
 // const cookieParser = require('cookie-parser');
@@ -16,12 +16,16 @@ const bodyParser = require('body-parser');
 // const InputDataDecoder = require('ethereum-input-data-decoder');
 // const pdfMerger = require('pdf-merger-js');
 
-const app = express();
-
 
 // const {auth, aDeanRoute, deanRoute, instructorRoute, deanAdeanRoute} = require('./middlewares');
 const { sequelize } = require('./utils/database');
 const adminRoutes = require('./routes/admin');
+const instructorRoutes = require('./routes/instructor');
+const { associations } = require('./models');
+
+const app = express();
+
+associations();
 
 // const fileStorageEngine = multer.diskStorage({
 //   destination: (req, file, cb) => {
@@ -46,6 +50,7 @@ const adminRoutes = require('./routes/admin');
 app.use(bodyParser.json());
 
 app.use('/admin', adminRoutes);
+app.use('/instructor', instructorRoutes);
 
 // let users = require('./user.json');
 // // users = users.map(async (u) => {
@@ -79,6 +84,8 @@ app.use('/admin', adminRoutes);
 //     }
 //   })
 // }
+
+
 
 // const generateAccessToken = (user) => {
 //     return jwt.sign(user, process.env.ACCESS_TOKEN_SECRET, { expiresIn: '200s' })
@@ -875,4 +882,9 @@ app.use('/admin', adminRoutes);
 //   res.send({verdict:"verified"});
 // })
 
-app.listen(4000, () => console.log('app is listening on port 4000!'));
+sequelize
+.sync({alter: true})
+.then(()=>{
+    app.listen(4000, () => console.log('app is listening on port 4000!'));
+})
+
