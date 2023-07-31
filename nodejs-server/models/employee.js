@@ -1,4 +1,5 @@
 const { DataTypes } = require('sequelize');
+const jwt = require('jsonwebtoken');
 
 const { sequelize } = require('../utils/database');
 

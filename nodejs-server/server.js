@@ -5,6 +5,7 @@ const bodyParser = require('body-parser');
 
 const { sequelize } = require('./utils/database');
 const adminRoutes = require('./routes/admin');
+const authRoutes = require('./routes/auth');
 const instructorRoutes = require('./routes/instructor');
 const { associations } = require('./models');
 
@@ -18,6 +19,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 app.use('/admin', adminRoutes);
 app.use('/instructor', instructorRoutes);
+app.use('/auth', authRoutes);
 
 app.use((error, req, res, next) => {
     console.log(error);
